@@ -1,4 +1,3 @@
-# Save this code as app.py
 import os
 import requests
 from flask import Flask, request, jsonify
@@ -7,7 +6,7 @@ from flask import Flask, request, jsonify
 # It's best practice to get your API key from an environment variable
 # instead of hardcoding it in the script.
 # Correctly assign the key as a string
-OPENROUTER_API_KEY = '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'
+OPENROUTER_API_KEY = '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'
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # You can change the model here. 
